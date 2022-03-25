@@ -1,7 +1,7 @@
 .food{
     border: 2px solid gray;
     padding: 30px;
-    border-radius:20px 0 20px 0;
+    border-radius: 20px 0 20px 0;
 }
 .food img{
     width: 100%;

@@ -2,6 +2,7 @@ import React from 'react';
 import './CartDetails.css'
 
 const CartDetails = (props) => {
+    // console.log(props)
     // console.log(props.infos[0]?.idMeal)
     return (
         <div className='cart-details'>
