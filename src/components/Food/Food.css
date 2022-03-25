@@ -15,4 +15,12 @@
 .food-btn{
     padding: 5px 10px;
     cursor: pointer;
+    background-color: cadetblue;
+    color: cyan;
+    border-radius: 10px 0 10px 0;
+}
+.food-btn:active{
+    position: relative;
+    top: 5px;
+    left: 5px;
 }

@@ -6,6 +6,9 @@ main{
   grid-template-columns: 4fr 1fr;
   position: relative;
 }
+.cart-container{
+  background-color: bisque;
+}
 
 .App-logo {
   height: 40vmin;

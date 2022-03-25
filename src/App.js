@@ -9,11 +9,15 @@ function App() {
   const [input, setInput] =useState('')
   const [infos, setInfos] = useState([])
 
-  let array = []
-    const mealDetails = (details) => {
-      array.push(details)
-      setInfos(array)
-      console.log(array)
+  // let array = []
+  const mealDetails = (details) => {
+    const check = infos.find(info => info.idMeal === details.idMeal)
+    if(check){
+      alert('You are already selected.')
+    }
+    else{
+      setInfos([...infos, details])
+    }
     }
 
   return (
@@ -21,10 +25,17 @@ function App() {
       <Header></Header>
       <main>
         <Foods mealDetails={mealDetails}></Foods>
-        <CartDetails infos={infos}></CartDetails>
+        <div className='cart-container'>
+          {
+            infos.map(info => <CartDetails info={info} key={info.idMeal}></CartDetails>)
+          }
+        </div>
+        
       </main>
     </div>
   );
 }
 
 export default App;
+
+{/* <CartDetails infos={infos}></CartDetails> */}

@@ -9,7 +9,7 @@ const Food = (props) => {
     const { strMeal, strInstructions, strMealThumb} = props.food
     return (
         <div className="food">
-            <img src={strMealThumb} alt="image"></img>
+            <img src={strMealThumb} alt="" />
             <h2>{strMeal}</h2>
             <p>{strInstructions.slice(0, 100)}</p>
             <button  onClick={ () => props.mealDetails(props.food)} className='food-btn'>
