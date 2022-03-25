@@ -1,0 +1,24 @@
+.header{
+    background-color: rgba(212, 95, 17, 0.425);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px
+}
+.header-menu{
+    display: flex;
+    list-style: none;
+}
+.header-menu li{
+    padding: 5px;
+    margin: 0 15px;
+}
+.header-menu a{
+    text-decoration: none;
+}
+.header-menu li:hover a{
+    color: maroon;
+}
+.icon{
+    margin-right: 5px;
+}

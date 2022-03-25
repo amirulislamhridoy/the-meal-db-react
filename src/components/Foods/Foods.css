@@ -1,0 +1,21 @@
+.search{
+    text-align: center;
+    margin-top: 20px;
+}
+.search input{
+    padding: 2px 5px;
+    font-size: 20px;
+}
+.search button{
+    font-size: 20px;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+.foods{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}

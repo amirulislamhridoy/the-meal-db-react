@@ -1,0 +1,18 @@
+.food{
+    border: 2px solid gray;
+    padding: 30px;
+    border-radius:20px 0 20px 0;
+}
+.food img{
+    width: 100%;
+}
+.icon{
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    padding: 5px
+}
+.food-btn{
+    padding: 5px 10px;
+    cursor: pointer;
+}
